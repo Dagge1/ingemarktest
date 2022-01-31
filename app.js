@@ -8,7 +8,6 @@ const path = require("path");
 const axios = require('axios');
 const emailRegexSafe = require('email-regex-safe');  // extract emails
 const sha256 = require('crypto-js/sha256');  // sha256 email enc
-const { url } = require('inspector');
 
 
 var matches = '';
